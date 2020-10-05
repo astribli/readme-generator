@@ -61,14 +61,16 @@ function writeToFile(fileName, data) {
     });
 };
 
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
+// Function to initialize program
 function init() {
-
-}
+    const promptUser = () => {
+        return inquirer.prompt(questions).then(answers => {
+            const readme = generateMarkdown(answers);
+            writeToFile('readme.md', readme);
+        });
+    }
+    promptUser();
+};
 
 // function call to initialize program
 init();
