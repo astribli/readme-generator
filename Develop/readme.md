@@ -1,7 +1,7 @@
 ## ReadMe Generator
-![GitHub license](https://img.shields.io/badge/license--green)
+![GitHub license](https://img.shields.io/badge/license-GPL-green)
 ## Description:
-A node program to generate a readme file for your project.
+A node program to generate a readme for your project.
 ## Table of Contents:
 * [Installation](#installation)
 * [Usage](#usage)
@@ -13,7 +13,7 @@ Be careful
 ## Usage:
 Go crazy
 ## License:
-Licensed by 
+Licensed by GPL
 ## Contributing:
 none
 ## Tests:
